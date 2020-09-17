@@ -1,0 +1,99 @@
+@font-face {
+    font-family: DIGITALDREAM;
+    src: url("../fonts/DIGITALDREAM.ttf");
+}
+
+body {
+	font-family: DIGITALDREAM;
+	text-align: center;
+	font-size: 20px;}
+
+#clock2 {
+	width: 500px;
+	height: 500px;
+	border: solid 1px orange;
+	border-radius: 50%;
+	margin: 100px auto;
+}
+#dot {
+	position: absolute;
+	margin: 245px 0 0 245px;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 50%;
+	z-index: 1;
+}
+#seconds {
+	position: absolute;
+	background-color: red;
+	width: 1px;
+	height: 225px;
+	margin: 25px 0 0 249.5px;
+	transform-origin: bottom center;
+}
+#minutes {
+	position: absolute;
+	background-color: blue;
+	width: 10px;
+	height: 200px;
+	margin: 50px 0 0 245px;
+	transform-origin: bottom center;
+
+}
+#hours {
+	position: absolute;
+	height: 150px;
+	width: 10px;
+	margin: 100px 0 0 245px;
+	background-color: green;
+	transform-origin: bottom center;
+}
+#plaatje {
+	position: absolute;
+	top: 50px;
+	display: none;
+}
+#clock3 {
+	width: 80px;
+	height: 80px;
+	border: solid 1px darkblue;
+	border-radius: 50%;
+	margin: 300px 0 0 300px;
+
+}
+#dot3 {
+	position: absolute;
+	margin: 37.5px 0 0 37.5px;
+	width: 5px;
+	height: 5px;
+	background-color: darkblue;
+	border-radius: 50%;
+	z-index: 1;
+}
+#seconds3 {
+	position: absolute;
+	background-color: darkblue;
+	width: 1px;
+	height: 35px;
+	margin: 5px 0 0 39.5px;
+	transform-origin: bottom center;
+}
+#minutes3 {
+	position: absolute;
+	background-color: darkblue;
+	width: 3px;
+	height: 30px;
+	margin: 10px 0 0 38.5px;
+	transform-origin: bottom center;
+
+}
+#hours3 {
+	position: absolute;
+	background-color: darkblue;
+	width: 3px;
+	height: 30px;
+	margin: 10px 0 0 38.5px;
+	transform-origin: bottom center;
+
+}
